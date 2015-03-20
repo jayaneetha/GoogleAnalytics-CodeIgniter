@@ -28,7 +28,7 @@ $ga_params = array(
 * `$this->googleanalytics->get_dimensions('browser','users')` returns array of number of users visited to your page with browsers.
 * `$this->googleanalytics->get_dimensions({dimension},{matric})` 
  {metric} = users, newUsers, percentNewSessions, sessionsPerUser. 
- {dimension} = browser,browserVersion,operatingSystem, operatingSystemVersion, mobileDeviceBranding, mobileDeviceModel, mobileInputSelector, mobileDeviceInfo, mobileDeviceMarketingName, deviceCategory.
+ {dimension} = browser, browserVersion, operatingSystem, operatingSystemVersion, mobileDeviceBranding, mobileDeviceModel, mobileInputSelector, mobileDeviceInfo, mobileDeviceMarketingName, deviceCategory.
 
 [Dimensions & Metrics Reference](https://developers.google.com/analytics/devguides/reporting/core/dimsmets)
 
