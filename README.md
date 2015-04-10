@@ -8,7 +8,7 @@ CodeIgniter Library to connect Google Analytics API.
 ##Usage
 1. Load the config file to your controller
   `$this->config->load('ga_api');`
-2. Load the library
+2. Load the library & config values
 ```
 $ga_params = array(
           'applicationName' => $this->config->item('ga_api_applicationName'),
