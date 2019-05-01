@@ -1,11 +1,11 @@
 # GoogleAnalytics-CodeIgniter
 CodeIgniter Library to connect Google Analytics API.
 
-##Installation
+## Installation
 1. Copy `config/ga_api.php` file to the `config` folder of your application.
 2. Copy `GoogleAnalytics.php` file and `google-api-php-client` folder to the `library` folder of your application.
 
-##Usage
+## Usage
 1. Load the config file to your controller
   `$this->config->load('ga_api');`
 2. Load the library & config values
